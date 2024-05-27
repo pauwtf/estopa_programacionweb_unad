@@ -1,0 +1,103 @@
+.discografia_ {
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    justify-content: space-between;
+}
+
+.disco_derecha, .disco_izquierda {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    margin: 0;
+    align-items: center;
+}
+.disco_izquierda{
+    flex-direction: row-reverse;
+}
+.disco1, .disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10, .disco11 {
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+}
+.titulo_disco, .titulo_disco_2 {
+    padding: 0;
+    color: #9799A6;
+    text-align: justify;
+    transition: .5s;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.titulo_disco_2 {
+    text-align: end;
+}
+.img_disco, .disco_Derecha, .disco_izquierda {
+    max-width: 100%;
+    height: auto;
+}
+.img_disco, .disco_izquierda {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.img_disco, .texto_disco, .disco_derecha, .disco_izquierda {
+    height: auto; 
+}
+.img_disco {
+    margin-right: 1%;
+    width: 40%;
+}
+.disco_derecha, .disco_izquierda, .img_disco img {
+    max-width: 100%; 
+    height: auto; 
+}
+.texto_disco {
+    max-width: 80%; 
+    margin-left: 1%;
+}
+
+@media (max-width: 1024px){
+    .disco1,.disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10, .disco11{
+        flex-direction: row;
+    }
+    .titulo_disco, .titulo_disco_2{
+        text-align:start;
+        padding: 2%;
+    }
+    .titulo_disco_2{
+        text-align: end;
+    }
+}
+@media (max-width: 768px){
+    .disco_derecha, .disco_izquierda {
+        flex-direction: column; 
+    }
+    .disco1, .disco3, .disco5, .disco7, .disco9, .disco11{
+        flex-direction: column;
+    }
+    .disco2, .disco4, .disco6, .disco8, .disco10{
+        flex-direction:column-reverse;
+    }
+    .titulo_disco, .titulo_disco_2{
+        text-align: center;
+        padding: 2%;
+    }
+}
+@media (max-width: 480px) {
+    .disco_derecha, .disco_izquierda {
+        flex-direction: column; 
+    }
+    .disco1, .disco3, .disco5, .disco7, .disco9, .disco11{
+        flex-direction: column;
+    }
+    .disco2, .disco4, .disco6, .disco8, .disco10{
+        flex-direction:column-reverse;
+    }
+    .titulo_disco, .titulo_disco_2{
+        text-align: center;
+        padding: 2%;
+    }
+}
+

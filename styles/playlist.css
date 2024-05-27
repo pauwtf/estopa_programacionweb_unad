@@ -1,0 +1,18 @@
+.playlist {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px){
+    .playlist{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .playlist {
+        width: 80%; /* Reducir el tamaño al 80% */
+    }
+}

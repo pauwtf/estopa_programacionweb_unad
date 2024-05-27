@@ -1,0 +1,76 @@
+.cuatro {
+    background-color: #F2F5F7;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.informacion-contacto {
+    font-weight: light;
+    font-size: 18px;
+    margin-bottom: 20px; 
+    text-align: left;
+}
+.contact{
+    margin-bottom: 0;
+}
+.contenido-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: #9799A6;
+    text-align: justify;
+    transition: .5s;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    margin-right: 20px;
+    align-items: center; 
+}
+form {
+    margin: 30px auto; 
+    align-content: center;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+}
+.Enviar_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnEnviar {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    fill: solid;
+    border-radius: 24px;
+    background-color: #fffefe;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    line-height: 19px;
+    line-height: 100%;
+    border-color: #fffefe;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.btnEnviar:hover {
+    background-color: #dbccff;
+    border-color: #dbccff;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px 5px rgb(105, 105, 105);
+    opacity: 0.8;
+}
